@@ -1,0 +1,66 @@
+/* 
+ESP-8266
+*/
+- http://api.openweathermap.org/data/2.5/weather?q=1566083,vn&APPID=435ac0cc72e55fe55f70782569bce453
+
+AT+CWMODE=1 (Station mode)
+AT+CWJAP="id","pass"\r\n (connect to wf)
+AT+CIFSR (Get ip)
+
+AT+CIPMUX=1 ()
+AT+CIPSTART=(server)
+
+Delay bang us
+
+/*
+Project changelog
+*/
+#12/10/2016 : Create project
+#13/10/2016 : Turn led on, off.
+#20/10/2016 : UART, printf,..
+#25/10/2016 : Interupt UART
+#27/10/2016 : Connect ESP to MCU
+#08/11/2016 : Use Timer to delay replace Systicks delay.
+#12/11/2016 : Connect and use api to get data.
+
+
+Backup:
+
+int main()
+{
+
+	SYS_UnlockReg();
+	SYS_Init();
+	SYS_LockReg();
+	/*---------------------------*/
+	uart0_init(115200);
+	uart1_init(115200);
+	/*---------------------------*/	
+	printf("Welcome to ESP-8266 project: \r\n");
+	uart1_send("AT\r\n");
+	TIMER_Delay(TIMER0,250000);
+	Buffer_Clr();
+	/*---------------------------*/	
+//	uart1_send("AT+RST\r\n");
+//	delay_s(4);
+//	Buffer_Clr();
+	/*---------------------------*/	
+	uart1_send("AT+CWJAP=\"Connectify-khiem123\",\"210495fa\"\r\n");
+	delay_s(6);
+	Buffer_Clr();
+	/*---------------------------*/	
+	uart1_send("AT+CIPMUX=1\r\n");
+	delay_s(2);
+	Buffer_Clr();
+	/*---------------------------*/			
+	uart1_send("AT+CIPSTART=\"TCP\",\"128.199.109.89\",80\r\n");
+	delay_s(2);
+	Buffer_Clr();
+	/*---------------------------*/			
+	uart1_send("AT+CIPSEND=73\r\n");
+	delay_s(2);
+	Buffer_Clr();
+	/*---------------------------*/			
+	uart1_send("GET /data/2.5/weather?id=1566083&appid=9ed5f7206c587d1072f40c7c87d58cd7\r\n");
+	delay_s(2);
+	Buffer_Clr();

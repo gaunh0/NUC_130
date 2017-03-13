@@ -1,0 +1,207 @@
+Dependencies for Project '1210', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x58521E5D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F614C8)
+I (user_uart.h)(0x58117BBF)
+I (user_sys.h)(0x58359467)
+I (buffer.h)(0x583F8C69)
+F (.\src\uart.c)(0x54B8D082)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+F (.\src\sys.c)(0x54B8D082)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+F (.\src\timer.c)(0x54B8D082)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+F (.\log.txt)(0x583D296F)()
+F (.\user_uart.c)(0x58358160)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\user_uart.o --omf_browse .\objects\user_uart.crf --depend .\objects\user_uart.d)
+I (user_uart.h)(0x58117BBF)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F614C8)
+F (.\user_sys.c)(0x583593C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\user_sys.o --omf_browse .\objects\user_sys.crf --depend .\objects\user_sys.d)
+I (user_sys.h)(0x58359467)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+F (.\buffer.c)(0x583D248E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\buffer.o --omf_browse .\objects\buffer.crf --depend .\objects\buffer.d)
+I (buffer.h)(0x583F8C69)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F614C8)
+F (RTE\Device\NUC131SD2AE\retarget.c)(0x54B8D082)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
+F (RTE\Device\NUC131SD2AE\startup_NUC131.s)(0x54B8D080)(--cpu Cortex-M0 -g --apcs=interwork -IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1"--list .\listings\startup_nuc131.lst --xref -o .\objects\startup_nuc131.o --depend .\objects\startup_nuc131.d)
+F (RTE\Device\NUC131SD2AE\system_NUC131.c)(0x54B8D080)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src-IE:\Code\NUC\1210\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include-D__UVISION_VERSION="522" -D_RTE_-o .\objects\system_nuc131.o --omf_browse .\objects\system_nuc131.crf --depend .\objects\system_nuc131.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F614C8)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\NUC131.h)(0x54B8D080)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582547EE)
+I (D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.9\Device\NUC131\Include\system_NUC131.h)(0x54B8D080)
+I (.\inc\SYS.h)(0x54B8D080)
+I (.\inc\ADC.h)(0x54B8D080)
+I (.\inc\CAN.h)(0x54B8D080)
+I (.\inc\FMC.h)(0x54B8D080)
+I (.\inc\GPIO.h)(0x54B8D080)
+I (.\inc\I2C.h)(0x54B8D080)
+I (.\inc\PWM.h)(0x54B8D080)
+I (.\inc\BPWM.h)(0x54B8D080)
+I (.\inc\SPI.h)(0x54B8D080)
+I (.\inc\TIMER.h)(0x54B8D082)
+I (.\inc\WDT.h)(0x54B8D082)
+I (.\inc\WWDT.h)(0x54B8D082)
+I (.\inc\UART.h)(0x54B8D082)
+I (.\inc\CLK.h)(0x54B8D080)
